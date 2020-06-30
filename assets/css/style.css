@@ -6,9 +6,16 @@
 }
 body{
     background: #E5E5E5;
+    font-family: 'Montserrat', sans-serif;
 }
 img{
     max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin: 0%;
 }
 ul{
     list-style: none;
@@ -32,13 +39,15 @@ ul{
 #vpn-buy-btn{
     background-color: #9B0000;
     color: #FFFBFB;
-    border-radius: 50px;
+    border-radius: 25px;
     margin: 10% 0;
+    font-size: 0.8rem;
 }
 
 #vpn-appeal span{
     color: #9B0000;
     font-size: 78px;
+    font-family: 'Revalia', cursive;
 }
 /* NAVBAR CSS ENDS HERE  */
 
@@ -46,7 +55,7 @@ ul{
 .vpn-bg{
     background-image: url(../images/vpn-bg.png);
     height: 75vh;
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
     margin-top: -20%;
@@ -54,8 +63,12 @@ ul{
 /* HEADER BG ENDS  */
 
 /* WORDS BELOW THE HEADER BACKGROUND START  */
+#vpn-appeal{
+    z-index: 999;
+}
 .vpn-name h1{
     font-size: 1.8rem;
+    font-family: 'Revalia', cursive;
 }
 .vpn-name p{
     margin-top: -5%;
@@ -86,11 +99,26 @@ ul{
 /* FEATURES SECTION END */
 
 /* REVIEWS SECTION START  */
+.reveiws-large{
+    display: none;
+}
+.card{
+    background: #7780A8;
+    color: white;
+    border-radius: 0%;
+}
+.card img{
+    width: 70%;
+    margin: auto;
+}
+.card p{
+   
+}
 #reviews h2{
     font-size: 0.75rem;
 }
 #reviews-section{
-background-color: #FFFBFB;
+background-color: #cfd2e0;
  
 }
 #map{
@@ -113,6 +141,13 @@ background-color: #FFFBFB;
 /* REVIEWS SECTION END */
 
 /* MORE FEATURES SECTION  */
+#more-features{
+    background-color: #d9dae5;
+}
+#more-features-header{
+ background-color: 
+ #e5e5e5;
+}
 #vpn-feature-details h5{
     font-size: 0.65rem;
 }
@@ -120,4 +155,120 @@ background-color: #FFFBFB;
     font-size: 0.55rem;
 }
 /* MORE FEATURES SECTION ENDS */
+
+/* SUBSCRIPTION SECTION STARTS HERE  */
+#vpn-subscriptions{
+    background-color: #cfd2e0;
+}
+.subscribe-logo{
+    width: 50%;
+}
+.vpn-subscriptions-appeal{
+    color: #D70404;
+}
+#vpn-device-logos{
+    margin-bottom: 1.5rem;
+}
+/* SUBSCRIPTION SECTION ENDS HERE  */
+/* CALL TO ACTION STARTS HERE  */
+#vpn-cta-section{
+    height: 100vh;
+    background-color: 
+    #cfd2e0;
+    background-image: url(../images/Bottom-bg.png);
+    background-size: 100%;
+    background-position: center;
+    
+}
+#vpn-cta-btn-row{
+    margin-top: -11%;
+}
+
+.vpn-download-btn{
+    background-color: #9B0000;
+    border-radius: 50px;
+    font-size: 1rem;
+    color: #FFFBFB;
+    border: none;
+    padding: 0.75rem;
+}
+#inputCurrency{
+    width: 20%;
+    padding: 0.5rem;
+    height: 1px;
+    border-radius: 10px;
+    font-size: 0.6rem;
+    background-color:  #C4C4C4;
+    color: black;
+}
+
+#vpn-cta-div{
+    height: 50vh;
+    width: 40%;
+    background: linear-gradient(174.38deg, rgba(109, 119, 162, 0.9) 67.92%, rgba(109, 119, 162, 0.2) 110.71%);
+border-radius: 15px;
+font-size: 0.7rem;
+margin-top: 5%;
+}
+#vpn-cta-div span{
+    color: white;
+    font-size: 68px;
+    font-family: 'Revalia', cursive;
+}
+/* CALL TO ACTION ENDS HERE  */
+/* FOOTER STARTS HERE  */
+#before-footer{
+    background-color: #dbdce7;
+}
+#before-footer p{
+    font-size: 0.6rem;
+
+}
+#before-footer ul img{
+    max-width: 70%;
+
+}
+#before-footer a{
+    
+    color: black;
+}
+#before-footer img{
+    max-width: 50%;
+    max-height: 50%;
+}
+footer{
+    background: rgba(123, 124, 131, 0.5);
+}
+.footer ul li{
+    font-size: 0.7rem;
+}
+.footer-bottom ul{
+    margin-bottom: 0%;
+}
+.footer-bottom{
+    background-color:  #C4C4C4;
+}
+.footer-bottom li img{
+    max-width: 100%;
+}
+.footer-bottom img{
+    max-width: 50%;
+}
+.footer-bottom p{
+    font-size: 0.7rem;
+}
+#footer-icons-large{
+    display: none!important;
+}
+#footer-links{
+    background-color: #a5a7b2;
+
+}
+#footer-links a{
+ color: black;
+}
+#footer-links hr{
+ height: 10px;
+}
+/* FOOTER ENDS HERE  */
 

@@ -15,10 +15,8 @@
   <title>Blackscorpion VPN</title>
   <link rel="shortcut icon" href="" type="image/x-icon" />
   <link rel="apple-touch-icon-precomposed" href="" />
-  <!-- Google fonts -->
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-    rel="stylesheet" />
+  <!-- Google fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Revalia&display=swap" rel="stylesheet">
   <!-- CSS links-->
   <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
   <link rel="stylesheet" href="./css/all.min.css" />
@@ -39,24 +37,21 @@
         <div class="collapse navbar-collapse ml-md-5" id="navbarSupportedContent">
           <ul class="navbar-nav  navlist text-center">
             <li class="nav-item active">
-              <a class="nav-link" href="#">HOME
-                <span class="sr-only">(current)</span>
+              <a class="nav-link" href="#vpn-appeal"">HOME
+                <span class=" sr-only">(current)</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#features">FEATURES</a>
+              <a class="nav-link" href="#more-features">FEATURES</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">TESTIMONIALS</a>
+              <a class="nav-link" href="#reviews">TESTIMONIALS</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link" id="vpn-download" href="#">DOWNLOAD</a>
+              <a class="nav-link" id="vpn-download" href="#vpn-cta-section">DOWNLOAD</a>
             </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link" href="#">Blog </a>
-            </li>-->
-            <li class="nav-item ml-md-5">
-              <a class="get-started" href="">
+            <li class="nav-item ml-lg-5">
+              <a class="get-started" href="#vpn-cta-section">
                 <button class="btn btn-nav button" id="vpn-buy-btn">Buy now</button>
               </a>
             </li>
@@ -68,12 +63,12 @@
     <!-- Navbar ends here  -->
     <section class="container">
       <!-- TOP  ROW content STARTS  -->
-      <div class="row mt-5 ">
+      <div class="row mt-5 " id="body-start">
         <div class="col-12 col-md-3 d-flex justify-content-center">
           <img src="./assets/images/vpn-gaurantee.png" alt="VPN Gaurantee">
         </div>
         <div class="col-8 col-md-6 ml-auto mr-auto text-center" id="vpn-appeal">
-          <p class="align-text-top">&#x20A6 <span>999</span>/mo</p>
+          <p class="align-text-top"><sup>&#x20A6</sup> <span>999</span><sup>/mo</sup></p>
           <p>Grab your jaw-dropping VPN deals</p>
 
         </div>
@@ -106,51 +101,12 @@
         <div class="col-12 text-center">
           <h1>BLACKSCORPION</h1><br>
           <p>A <span> sting </span> to other VPN deals</p>
+          <h4 class="pt-4">All you need from a truly complete VPN solution</h4>
         </div>
       </div>
     </section>
     <!-- Header ends here   -->
 
-    <!-- FEATURES START  -->
-    <section class="container">
-      <div class="row mt-3" id="features">
-        <div class="col-12 text-center">
-          <h2>All you need from a truly complete VPN solution</h2>
-        </div>
-      </div>
-    </section>
-    <div class="container-fluid feature-section">
-      <div class="container">
-        <div class="row " id="vpn-features">
-          <div class="col-6 col-md-4 my-2">
-            <ul>
-              <li>Automatic Kill Switch</li>
-              <li>Highest possible speed</li>
-              <li>Unlimited bandwidth and traffic</li>
-              <li>Access to over 6400 servers worldwide</li>
-            </ul>
-          </div>
-          <div class="col-6 col-md-4 my-2">
-            <ul>
-              <li>NS and IP Leak Protection</li>
-              <li>Strict No Logs Policy</li>
-              <li>256-bit AES Encryption OpenVPN</li>
-              <li>L2TP-IPsec protocols</li>
-            </ul>
-          </div>
-          <div class=" col-6 col-md-4 my-2" id="hidden-feature">
-            <ul>
-              <li>Simultaneous connections on up to 7 devices</li>
-              <li>Apps for Windows, Mac, iOS, Android</li>
-              <li>Friendly support: chat or email</li>
-              <li>45-day money back guarantee</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- FEATURES ENDS  -->
     <!-- REVIEWS START -->
     <section class="container">
       <div class="row mt-5" id="reviews">
@@ -161,17 +117,109 @@
     </section>
     <div class="container-fluid" id="reviews-section">
       <div class="container ">
-        <div class="row pt-3">
-          <div class="col-12 col-md-4 text-center">
-            <p>“A feature-packed VPN” <br>techradar</p>
+        <div class="row py-2">
+          <!-- CAROUSEL  -->
+          <div id="carouselExampleIndicators" class="carousel slide text-center" data-ride="carousel" style="width: 100%;">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="card" style="width: 100%;">
+                  <img src="./assets/images/customer-1.png" class="mt-3" alt="...">
+                  <div class="card-body mb-3">
+                    <p class="card-text">"Good choice for vpn".</p>
+                    <p>Michael B.</p>
+                    <p style="font-size: 0.5rem;">NEWYORK</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card" style="width: 100%;">
+                  <img src="./assets/images/avatar-3 1.png" class="mt-3" alt="...">
+                  <div class="card-body mb-3">
+                    <p class="card-text">"Excellent Product".</p>
+                    <p>Bee Yon C.</p>
+                    <p style="font-size: 0.5rem;">LA</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card" style="width: 100%;">
+                  <img src="./assets/images/Customer-4.png" class="mt-3" alt="...">
+                  <div class="card-body mb-3">
+                    <p class="card-text">"A feature-filled VPN".</p>
+                    <p>Nkechi D.</p>
+                    <p style="font-size: 0.5rem;">LAGOS</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="card" style="width: 100%;">
+                  <img src="./assets/images/Customer-4.png" class="mt-3" alt="...">
+                  <div class="card-body mb-3">
+                    <p class="card-text">"A feature-filled VPN".</p>
+                    <p>Nkechi D.</p>
+                    <p style="font-size: 0.5rem;">LAGOS</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
+          <!-- CAROUSEL  -->
 
-          <div class="col-12 col-md-4 text-center">
-            <p>“Excellent product.” <br>PCMAG.COM</p>
+        </div>
+        <div class="row py-4 reveiws-large">
+          <div class="col-12 col-md-3 text-center mb-3">
+            <div class="card" style="width: 100%;">
+              <img src="./assets/images/customer-1.png" class="mt-3" alt="...">
+              <div class="card-body">
+                <p class="card-text">"Good choice for vpn".</p>
+                <p>Michael B.</p>
+                <p style="font-size: 0.5rem;">NEWYORK</p>
+              </div>
+            </div>
           </div>
-
-          <div class="col-12 col-md-4 text-center">
-            <p>“Good choice for VPN”<br>PCWorld</p>
+          <div class="col-12 col-md-3 text-center mb-3">
+            <div class="card" style="width: 100%;">
+              <img src="./assets/images/avatar-3 1.png" class="mt-3" alt="...">
+              <div class="card-body">
+                <p class="card-text">"Excellent Product".</p>
+                <p>Bee Yon C.</p>
+                <p style="font-size: 0.5rem;">LA</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 text-center mb-3">
+            <div class="card" style="width: 100%;">
+              <img src="./assets/images/Customer-4.png" class="mt-3" alt="...">
+              <div class="card-body">
+                <p class="card-text">"A feature-filled VPN".</p>
+                <p>Nkechi D.</p>
+                <p style="font-size: 0.5rem;">LAGOS</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-3 text-center mb-3">
+            <div class="card" style="width: 100%;">
+              <img src="./assets/images/customer-1.png" class="mt-3" alt="...">
+              <div class="card-body">
+                <p class="card-text">"Love it again".</p>
+                <p>Michael B.</p>
+                <p style="font-size: 0.5rem;">NEWYORK</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -180,7 +228,7 @@
       <div class="row" id="map">
         <div class="col-12 text-center align-center my-auto py-md-2 py-4" id="map-texts">
           <h2 class="mb-3">We have the perfect servers for you </h2>
-          <p>With over 6400 servers in 89+ countries,
+          <p class="mb-3">With over 6400 servers in 89+ countries,
             we give you blazing fast speeds and unlimited bandwidth.
             No more buffering, throttling from your Internet Service Provider or proxy errors with our VPN connection!</p>
         </div>
@@ -188,51 +236,218 @@
     </div>
 
     <!-- REVIEWS END -->
+    <!-- FEATURES START  -->
+    <section class="container-fluid" id="more-features-header">
+      <section class="container">
+        <div class="row">
+          <div class="col-12 text-center py-2">
+            <p>FEATURES</p>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section class="container-fluid" id="more-features">
+      <section class="container py-3">
+        <div class="row" id="vpn-feature-details">
+          <div class="col-6 col-md-4 text-center my-2">
+            <img src="./assets/images/netflix-library.png" alt="" class="mb-2">
+
+            <h5>15 Netflix libraries & more</h5>
+            <p>Travel to US or 15 other countries without leaving your couch & enjoy their Netflix libraries + unlock other streaming services!</p>
+          </div>
+          <div class="col-6 col-md-4 text-center my-2">
+            <img src="./assets/images/vpn-whitelister.png" alt="" class="mb-3">
+
+            <h5> Whitelister</h5>
+            <p>This handy feature lets selected apps or websites bypass VPN connection. Works great for banking.</p>
+          </div>
+          <div class="col-6 col-md-4 text-center my-2">
+            <img src="./assets/images/vpn-no-virus 1.png" alt="" class="mb-3">
+            <h5>CleanWeb</h5>
+            <p>Prevent malware or phishing attempts from getting to you. Plus, you can forget ads & trackers ever existed.</p>
+          </div>
+          <div class="col-6 col-md-4 text-center">
+            <img src="./assets/images/vpn-no-login.png" alt="" class="mb-2">
+            <h5>Strict no-logs policy</h5>
+            <p>Your privacy is a right, not a privilege. We don’t monitor or log anything you do when you connect.</p>
+          </div>
+          <div class="col-6 col-md-4 text-center">
+            <img src="./assets/images/vpn-keys.png" alt="" class="mb-4">
+            <h5>Industry-leading encryption</h5>
+            <p>Shield your every move online with the best encryption in the market. Your data is secured & private.</p>
+          </div>
+          <div class="col-6 col-md-4 text-center">
+            <img src="./assets/images/vpn-wi-fi.png" alt="" class="mb-2">
+            <h5>Kill Switch</h5>
+            <p>Kill Switch disables your internet connection if your VPN connection drops. That way, you are shielded 100% of the time.</p>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- FEATURES END -->
+    <!-- SUBSCRIPTION SECTION STARTS  -->
+    <section class="container-fluid">
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center py-2" id="vpn-subscriptions">
+          <img src="./assets/images/BS-logo.png" alt="" class="subscribe-logo">
+        </div>
+      </div>
+      <div class="container">
+        <div class="row pt-5">
+          <div class="col-12 col-md-4">
+            <h5 class="vpn-subscriptions-appeal mb-md-4">1 subscription Unlimited devices </h5>
+            <p>You only need 1 subscription to cover every gadget in your house. Download our apps and use Surfshark on all your family’s devices</p>
+          </div>
+          <div class="col-12 col-md-6 ml-md-5">
+            <img src="./assets/images/Devices 1.png" alt="">
+
+          </div>
+        </div>
+        <div class="row py-4">
+          <div class="col-12 d-flex justify-content-center" id="vpn-device-logos">
+            <ul class="d-flex">
+              <li><img src="./assets/images/chrome.png" alt=""></li>
+              <li><img src="./assets/images/android.png" alt=""></li>
+              <li><img src="./assets/images/firefox-logotype.png" alt=""></li>
+              <li><img src="./assets/images/mac-os-logo.png" alt=""></li>
+              <li><img src="./assets/images/windows-logo.png" alt=""></li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SUBSCRIPTION SECTION ENDS  -->
+    <!-- CALL TO ACTION SECTION STARTS HERE  -->
+    <section class="container-fluid" id="vpn-cta-section">
+      <div class="row py-3">
+        <div class="col-12 d-flex justify-content-center" id="vpn-cta-btn-row">
+          <a href="https://play.google.com/store" target="_blank"><button class="vpn-download-btn">DOWNLOAD NOW</button></a>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row d-flex justify-content-center text-center">
+          <div class="col-12">
+            <h5>The choice is easy</h5>
+          </div>
+          <form action="" class="form-inline">
+            <div class="form-group d-flex justify-content-center">
+              <label for="inputCurrency">select currency</label>
+              <select id="inputCurrency" class="form-control ml-2 mt-1">
+                <option selected>&#x20A6 Naira</option>
+                <option>&#36; Dollar</option>
+                <option>&#163; Pound</option>
+                <option>&#165; Yen</option>
+              </select>
+            </div>
+          </form>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <div class="col-8 col-md-4 mt-md-5 text-center" id="vpn-cta-div">
+            <p class="mt-lg-4"><sup>&#x20A6</sup> <span>999</span><sup>/mo</sup></p>
+            <p class="mt-lg-3"><strike>&#x20A6 11,499</strike> &#x20A6 9,499 <br>
+              billed every 12 months</p>
+            <a class="get-started " href="">
+              <button class="btn btn-nav button mt-lg-4 mt-xl-5 mt-md-5 mt-4 mb-3" id="vpn-buy-btn">Buy now</button>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <footer class="container-fluid">
+      <!-- <section class="footer">
+        <div class="container">
+          <div class="row py-2">
+            <div class="col-6">
+              <ul>
+                <li>Products</li>
+                <li>Resources</li>
+                <li>About us</li>
+                <li>Support</li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <p>Connect with us</p>
+
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <div class="row p-3" id="before-footer">
+        <div class="container">
+          <div class="row py-1 py-lg-3">
+            <div class="col-12 col-md-3 d-flex justify-content-center align-items-center" id="footer-icons-large">
+              <ul class=" d-flex">
+                <li class=""><a href="https://www.instagram.com" target="_blank"><img src="./assets/images/instagram 1.png" alt=""></a></li>
+                <li class="ml-2"><a href="https://www.facebook.com" target="_blank"><img src="./assets/images/facebook 1.png" alt=""></a></li>
+                <li class="ml-2"><a href="https://www.twitter.com" target="_blank"><img src="./assets/images/twitter 1.png" alt=""></a></li>
+                <li class="ml-2"><a href="https://www.youtube.com" target="_blank"><img src="./assets/images/youtube 1.png" alt=""></a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-3 d-flex align-items-center justify-content-center text-left py-1">
+
+              <img src="./assets/images/time-logo.png" alt="">
+              <p class="ml-3 col-6 col-md-8">Quick Download<br>
+                <a href="">Shop by product</a></p>
+            </div>
+            <div class="col-12 col-md-3 d-flex align-items-center justify-content-center text-left py-1">
+              <img src="./assets/images/store-logo.png" alt="">
+              <p class="ml-3 col-6 col-md-8">Store Locator<br>
+                <a href="">Find nearby stores</a></p>
+            </div>
+            <div class="col-12 col-md-3 d-flex align-items-center justify-content-center py-1">
+              <img src="./assets/images/messages-logo.png" alt="">
+              <p class="ml-3 col-6 col-md-8">Start a chat<br>
+                <a href="">For enquiries</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container" id="footer-links">
+        <div class="row text-center p-2 d-flex">
+          <div class="col-12 col-md-3 p-2">
+            <a href="#more-features">Features</a>
+          </div>
+          <hr>
+          <div class="col-12  col-md-3 p-2">
+            <a href="#reviews">Testimonials</a>
+          </div>
+          <div class="col-12  col-md-3 p-2">
+            <a href="#vpn-cta-section">Deals</a>
+          </div>
+          <div class="col-12  col-md-3 p-2 order-md-2">
+            <ul>
+              <li>600 isolation expressway, Lagos Island, London</li>
+              <li>+ 1(233)456-789, +9(876)543-210</li>
+              <li>Contact@origami.com</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="container-fluid footer-bottom">
+      <div class="row py-3">
+        <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
+          <ul class="d-flex">
+            <li class=""><a href="https://www.instagram.com" target="_blank"><img src="./assets/images/instagram 1.png" alt=""></a></li>
+            <li class="ml-2"><a href="https://www.facebook.com" target="_blank"><img src="./assets/images/facebook 1.png" alt=""></a></li>
+            <li class="ml-2"><a href="https://www.twitter.com" target="_blank"><img src="./assets/images/twitter 1.png" alt=""></a></li>
+            <li class="ml-2"><a href="https://www.youtube.com" target="_blank"><img src="./assets/images/youtube 1.png" alt=""></a></li>
+          </ul>
+        </div>
+        <div class="col-12 py-2 col-md-4 d-flex justify-content-center align-center">
+          <img src="./assets/images/BS-logo.png" alt="">
+        </div>
+        <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
+          <p>2020 Copyright BlackScorpion®. All rights reserved</p>
+        </div>
+      </div>
+    </div>
+    <!-- CALL TO ACTION SECTION ENDS HERE  -->
   </div>
-  <section class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <p>FEATURES</p>
-      </div>
-    </div>
-    <div class="row" id="vpn-feature-details">
-      <div class="col-6 col-md-4 text-center">
-        <div><img src="./assets/images/netflix-library.png" alt=""></div>
-
-        <h5>15 Netflix libraries & more</h5>
-        <p>Travel to US or 15 other countries without leaving your couch & enjoy their Netflix libraries + unlock other streaming services!</p>
-      </div>
-      <div class="col-6 col-md-4 text-center">
-        <div><img src="./assets/images/vpn-whitelister.png" alt=""></div>
-
-        <h5> Whitelister</h5>
-        <p>This handy feature lets selected apps or websites bypass VPN connection. Works great for banking.</p>
-      </div>
-      <div class="col-6 col-md-4 text-center">
-        <img src="./assets/images/vpn-no-virus 1.png" alt="">
-        <h5>CleanWeb</h5>
-        <p>Prevent malware or phishing attempts from getting to you. Plus, you can forget ads & trackers ever existed.</p>
-      </div>
-      <div class="col-6 col-md-4 text-center">
-        <img src="./assets/images/vpn-no-login.png" alt="">
-        <h5>Strict no-logs policy</h5>
-        <p>Your privacy is a right, not a privilege. We don’t monitor or log anything you do when you connect.</p>
-      </div>
-      <div class="col-6 col-md-4 text-center">
-        <img src="./assets/images/vpn-keys.png" alt="">
-        <h5>Industry-leading encryption</h5>
-        <p>Shield your every move online with the best encryption in the market. Your data is secured & private.</p>
-      </div>
-      <div class="col-6 col-md-4 text-center">
-        <img src="./assets/images/vpn-wi-fi.png" alt="">
-        <h5>Kill Switch</h5>
-        <p>Kill Switch disables your internet connection if your VPN connection drops. That way, you are shielded 100% of the time.</p>
-      </div>
-    </div>
-  </section>
-  <!-- All javascript at the bottom of the page for fast page load -->
-  <script src=" ./assets/js/jquery-3.5.1.min.js">
-  </script>
+  <!-- All javascript at the bottom of the page for fast page load  -->
+  <script src=" ./assets/js/jquery-3.5.1.min.js"></script>
   <script src="./assets/js/bootstrap.min.js"></script>
 </body>
 
