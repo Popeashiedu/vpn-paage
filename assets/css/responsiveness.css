@@ -1,0 +1,68 @@
+@media all and (min-width: 576px){
+  
+}
+@media all and (min-width: 768px){
+      /* NAVBAR CSS STARTS HERE */
+      .logo{
+        width: 30%;
+    }
+    #vpn-buy-btn{
+        margin:  0;
+    }
+
+    /* NAVBAR CSS ENDS HERE  */
+    /* HEADER BG STARTS  */
+.vpn-bg{ 
+    height: 100vh;
+}
+/* HEADER BG ENDS  */
+/* WORDS BELOW THE HEADER BACKGROUND START  */
+.vpn-name h1{
+    font-size: 4.5rem;
+}
+.vpn-name p{
+    font-size: 2rem;
+}
+/* WORDS BELOW THE HEADER BACKGROUND END */
+
+/* FEATURES SECTION START */
+#features h2{
+    font-size: 2.5rem;
+}
+
+#vpn-features ul li {
+    font-size: 1rem;
+    
+}
+#hidden-feature{
+    display:block;
+}
+/* FEATURES SECTION END */
+/* REVIEWS SECTION START  */
+#reviews h2, #map h2{
+    font-size: 2.5rem;
+}
+#map{
+    height: 80vh;
+}
+#map p{
+    font-size: 1rem;
+}
+
+/* REVIEWS SECTION END */
+/* MORE FEATURES SECTION  */
+#vpn-feature-details h5{
+    font-size: 1.3rem;
+}
+#vpn-feature-details p{
+    font-size: 1rem;
+}
+/* MORE FEATURES SECTION ENDS */
+    
+}
+@media all and (min-width: 992px){
+    
+}
+@media all and (min-width: 1200px){
+    
+}

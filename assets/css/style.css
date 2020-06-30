@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+    
+}
+body{
+    background: #E5E5E5;
+}
+img{
+    max-width: 100%;
+}
+ul{
+    list-style: none;
+}
+
+/* NAVBAR CSS STARTS HERE  */
+.logo{
+    width: 50%;
+}
+
+.vpn-navbar{
+    background: #FFFBFB;
+    color: black;
+}
+.vpn-navbar li{
+    color: black;
+}
+#vpn-download{
+    color: #9B0000;
+}
+#vpn-buy-btn{
+    background-color: #9B0000;
+    color: #FFFBFB;
+    border-radius: 50px;
+    margin: 10% 0;
+}
+
+#vpn-appeal span{
+    color: #9B0000;
+    font-size: 78px;
+}
+/* NAVBAR CSS ENDS HERE  */
+
+/* HEADER BG STARTS  */
+.vpn-bg{
+    background-image: url(../images/vpn-bg.png);
+    height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -20%;
+}
+/* HEADER BG ENDS  */
+
+/* WORDS BELOW THE HEADER BACKGROUND START  */
+.vpn-name h1{
+    font-size: 1.8rem;
+}
+.vpn-name p{
+    margin-top: -5%;
+    font-size: 1rem;
+}
+.vpn-name span{
+    color: #9B0000;
+}
+/* WORDS BELOW THE HEADER BACKGROUND END */
+
+/* FEATURES SECTION START */
+#features h2{
+    font-size: 0.75rem;
+}
+
+.feature-section  {
+    background: #7b7c83;
+    /* opacity: 0.5; */
+}
+#vpn-features ul li {
+    font-size: 0.55rem;
+    z-index: 2;
+    color: #2F1E1E;
+}
+#hidden-feature{
+    display: none;
+}
+/* FEATURES SECTION END */
+
+/* REVIEWS SECTION START  */
+#reviews h2{
+    font-size: 0.75rem;
+}
+#reviews-section{
+background-color: #FFFBFB;
+ 
+}
+#map{
+    background-image: url(../images/world-png-5\ 1.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #E5E5E5;
+}
+
+#map h2{
+    font-size: 0.75rem;
+}
+#map p{
+    font-size: 0.65rem;
+}
+#map-texts{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+/* REVIEWS SECTION END */
+
+/* MORE FEATURES SECTION  */
+#vpn-feature-details h5{
+    font-size: 0.65rem;
+}
+#vpn-feature-details p{
+    font-size: 0.55rem;
+}
+/* MORE FEATURES SECTION ENDS */
+
