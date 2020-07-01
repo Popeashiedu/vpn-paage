@@ -213,12 +213,12 @@ background-color: #cfd2e0;
 }
 #vpn-cta-div{
     height: 60%;
-    width: 40%;
+    width: 45%;
     background: linear-gradient(174.38deg, rgba(109, 119, 162, 0.9) 67.92%, rgba(109, 119, 162, 0.2) 110.71%);
 border-radius: 15px;
 font-size: 0.7rem;
 margin-top: 5%;
-margin-bottom: 5%;
+margin-bottom: 15%;
 }
 #vpn-cta-div span{
     color: white;
