@@ -1,3 +1,15 @@
+@media all and (max-width:435px){
+    .adjust-img-1{
+        max-width: 72%;
+    }
+    .adjust-img-2{
+        max-width: 63%;
+    }
+    .adjust-img-3{
+        max-width: 71%;
+    }
+}
+
 @media all and (min-width: 567px){
     /* CALL TO ACTION STARTS HERE  */
 
@@ -21,30 +33,22 @@
     /* HEADER BG STARTS  */
 .vpn-bg{ 
     height: 100vh;
+    margin-top: -20%;
 }
 /* HEADER BG ENDS  */
 /* WORDS BELOW THE HEADER BACKGROUND START  */
 .vpn-name h1{
-    font-size: 4.5rem;
+    font-size: 3rem;
 }
 .vpn-name p{
-    font-size: 2rem;
+    font-size: 1.5rem;
+}
+.expires{
+    margin-top: 0%;
 }
 /* WORDS BELOW THE HEADER BACKGROUND END */
 
-/* FEATURES SECTION START */
-#features h2{
-    font-size: 2.5rem;
-}
 
-#vpn-features ul li {
-    font-size: 1rem;
-    
-}
-#hidden-feature{
-    display:block;
-}
-/* FEATURES SECTION END */
 /* REVIEWS SECTION START  */
 .reveiws-large{
     display: flex;
@@ -53,7 +57,10 @@
     display: none;
 }
 #reviews h2, #map h2{
-    font-size: 2.5rem;
+    font-size: 1.2rem;
+}
+.card-text{
+    font-size: 0.65rem;
 }
 #map{
     height: 80vh;
@@ -63,14 +70,7 @@
 }
 
 /* REVIEWS SECTION END */
-/* MORE FEATURES SECTION  */
-#vpn-feature-details h5{
-    font-size: 1.3rem;
-}
-#vpn-feature-details p{
-    font-size: 1rem;
-}
-/* MORE FEATURES SECTION ENDS */
+
 /* SUBSCRIPTION SECTION STARTS HERE  */
 .subscribe-logo{
     width: 20%;
@@ -104,6 +104,12 @@
     background-size: 70%;
     margin-top: -15%;
 }
+.vpn-name h4{
+    font-size: 1.2rem;
+}
+.card-text{
+    font-size: 0.75rem;
+}
 /* HEADER BG ENDS  */
       /* CALL TO ACTION STARTS HERE  */
 
@@ -113,7 +119,7 @@
 #vpn-cta-div{
 font-size: 0.7rem;
 margin-top: 2%;
-height: 55vh;
+height: 60%;
 }
 .buy-btn{
     margin-top: 15%!important;
@@ -139,15 +145,50 @@ height: 55vh;
     #body-start{
         margin-top: 10%!important;
     }
-    
+    /* MORE FEATURES SECTION  */
+#vpn-feature-details h5{
+    font-size: 1rem;
+}
+#vpn-feature-details p{
+    font-size: 0.8rem;
+}
+/* MORE FEATURES SECTION ENDS */
 }
 @media all and (min-width: 1440px){
+
+    /* HEADER START */
+    .grab{
+        font-size: 1.5rem;
+    }
+    .vpn-bg{margin-top: -15%;}
+    .vpn-name {
+        margin-top: -10%;
+    }
+    .vpn-name h1{
+        font-size: 4.5rem;
+    }
+    .vpn-name p{
+        font-size: 2.5rem;
+    }
+    .vpn-name h4{
+        font-size: 2rem;
+    }
+    /* HEADER  END */
+    /* REVIEWS START  */
+    .card-text{
+        font-size: 0.85rem;
+    }
+    /* REVIEWS END  */
     /* CALL TO ACTION STARTS HERE  */
 
 #vpn-cta-div{
 font-size: 1rem;
 margin-top: 2%;
 height: 50vh;
+}
+.buy-btn{
+    margin-top: 28%!important;
+    
 }
 /* CALL TO ACTION ENDS HERE  */
 #before-footer p{
