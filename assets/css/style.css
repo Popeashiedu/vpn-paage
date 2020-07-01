@@ -40,7 +40,7 @@ ul{
     background-color: #9B0000;
     color: #FFFBFB;
     border-radius: 25px;
-    margin: 10% 0;
+    /* margin: 10% 0; */
     font-size: 0.8rem;
 }
 
@@ -63,6 +63,9 @@ ul{
 /* HEADER BG ENDS  */
 
 /* WORDS BELOW THE HEADER BACKGROUND START  */
+.expires{
+    margin-top: 4%;
+}
 #vpn-appeal{
     z-index: 999;
 }
@@ -203,7 +206,7 @@ background-color: #cfd2e0;
 }
 
 #vpn-cta-div{
-    height: 50vh;
+    height: 45vh;
     width: 40%;
     background: linear-gradient(174.38deg, rgba(109, 119, 162, 0.9) 67.92%, rgba(109, 119, 162, 0.2) 110.71%);
 border-radius: 15px;
@@ -215,13 +218,67 @@ margin-top: 5%;
     font-size: 68px;
     font-family: 'Revalia', cursive;
 }
+.buy-btn{
+    margin-top: 20%!important;
+    background-color: #9B0000;
+    color: #FFFBFB;
+    border-radius: 25px;
+    font-size: 0.8rem;
+}
 /* CALL TO ACTION ENDS HERE  */
 /* FOOTER STARTS HERE  */
+.mobile-footer-1{
+    background-color: #a5a7b2;
+}
+.mobile-footer-1-container{
+    background-color: #e7e6ed;
+    margin: 0!important;
+    margin-bottom: 0.3%!important;
+}
+.mobile-footer-1-container p,
+.mobile-footer-1-container a{
+ font-size: 0.6rem; 
+ color: black;  
+}
+.mobile-footer-2{
+    background-color: #e7e6ed;
+}
+.mobile-footer-2-container{
+    background-color: #878589;
+    margin: 0!important;
+    margin-bottom: 0.6%!important;
+}
+.mobile-footer-2-container a{
+    font-size: 0.8rem; 
+    color: #e7e6ed;  
+    font-weight: 500;
+   }
+.mobile-footer-3{
+    background-color: 
+    #cfd2e0;
+}
+.mobile-footer-3 li, .mobile-footer-3 p{
+   font-size: 0.5rem;
+   color: black;
+}
+.mobile-footer-3-container{
+    background-color: #e7e6ed;
+    margin: 0!important;
+}
+.mobile-footer-3-container ul{
+    margin: 0!important;
+}
+.mobile-footer-logo{
+    max-width: 50%;
+}
+.desktop-footer{
+    display: none;
+}
 #before-footer{
     background-color: #dbdce7;
 }
 #before-footer p{
-    font-size: 0.6rem;
+    font-size: 0.52rem;
 
 }
 #before-footer ul img{
@@ -261,14 +318,18 @@ footer{
     display: none!important;
 }
 #footer-links{
-    background-color: #a5a7b2;
+    /* margin: 0!important; */
 
 }
-#footer-links a{
+#footer-links a, #footer-links li{
  color: black;
+ font-size: 0.6rem;
 }
-#footer-links hr{
- height: 10px;
+#footer-links ul{
+ margin-bottom: 0%!important;
+}
+.desktop-copyright{
+    font-size: 0.5rem!important;
 }
 /* FOOTER ENDS HERE  */
 

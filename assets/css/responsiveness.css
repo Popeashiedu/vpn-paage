@@ -14,7 +14,7 @@
         width: 30%;
     }
     #vpn-buy-btn{
-        margin:  0;
+        margin-top:  0!important;
     }
 
     /* NAVBAR CSS ENDS HERE  */
@@ -81,6 +81,13 @@
   #vpn-cta-btn-row{
     margin-top: -6%;
 }
+/* FOOTER SECTION STARTS  */
+.mobile-footer-1, .mobile-footer-2, .mobile-footer-3{
+    display: none;
+}
+.desktop-footer{
+    display: block;
+}
 #footer-icons-large{
     display: flex!important;
 }
@@ -108,7 +115,16 @@ font-size: 0.7rem;
 margin-top: 2%;
 height: 55vh;
 }
+.buy-btn{
+    margin-top: 15%!important;
+    
+}
 /* CALL TO ACTION ENDS HERE  */
+/* FOOTER  */
+#footer-links a {
+    font-size: 0.8rem;
+   }
+/* FOOTER  */
 }
 @media all and (min-width: 1200px){
     .vpn-navbar{
