@@ -179,7 +179,7 @@ background-color: #cfd2e0;
 /* SUBSCRIPTION SECTION ENDS HERE  */
 /* CALL TO ACTION STARTS HERE  */
 #vpn-cta-section{
-    height: 80vh;
+   
     background-color: 
     #cfd2e0;
     background-image: url(../images/Bottom-bg.png);
@@ -218,6 +218,7 @@ background-color: #cfd2e0;
 border-radius: 15px;
 font-size: 0.7rem;
 margin-top: 5%;
+margin-bottom: 5%;
 }
 #vpn-cta-div span{
     color: white;
